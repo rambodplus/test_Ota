@@ -88,4 +88,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties arduino.upload.port="192.168.43.51" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
