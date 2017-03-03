@@ -15,6 +15,7 @@ void setup() {
 		Serial.println("Connection Failed! Rebooting...");
 		delay(5000);
 		ESP.restart();
+
 	}
 
 	// Port defaults to 8266
